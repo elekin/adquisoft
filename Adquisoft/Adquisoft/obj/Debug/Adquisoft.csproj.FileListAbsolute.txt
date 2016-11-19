@@ -1,0 +1,42 @@
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\Adquisoft.exe.config
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\Adquisoft.exe
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\Adquisoft.pdb
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\MahApps.Metro.dll
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\System.Windows.Interactivity.dll
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\MahApps.Metro.pdb
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\MahApps.Metro.xml
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Adquisoft.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Resources\Icons.baml
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Resources\IconsNonShared.baml
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\MainWindow.g.cs
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\App.g.cs
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Adquisoft_MarkupCompile.cache
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Adquisoft_MarkupCompile.lref
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\App.baml
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\MainWindow.baml
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Adquisoft.g.resources
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Adquisoft.Properties.Resources.resources
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Adquisoft.csproj.GenerateResource.Cache
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Adquisoft.exe
+c:\users\javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Adquisoft.pdb
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\ModuloPrincipal.baml
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\ModuloPrincipal.g.cs
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Registro_sw\RegistrarNuevoSoftware.g.cs
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Registro_sw\RegistrarNuevoSoftware.baml
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Registro_sw\Registros_sw.g.cs
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Registro_sw\Registros_sw.baml
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Registro_sw\MenuRegistro_sw.g.cs
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\obj\Debug\Registro_sw\MenuRegistro_sw.baml
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\Npgsql.dll
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\Mono.Security.dll
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\Npgsql.pdb
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\Npgsql.xml
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\de\Npgsql.resources.dll
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\es\Npgsql.resources.dll
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\Javier\documents\visual studio 2015\Projects\Adquisoft\Adquisoft\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Javier\Documents\adquisoft\Adquisoft\Adquisoft\bin\Debug\Adquisoft.exe.config
+C:\Users\Javier\Documents\adquisoft\Adquisoft\Adquisoft\obj\Debug\Adquisoft.exe
+C:\Users\Javier\Documents\adquisoft\Adquisoft\Adquisoft\obj\Debug\Adquisoft.pdb
