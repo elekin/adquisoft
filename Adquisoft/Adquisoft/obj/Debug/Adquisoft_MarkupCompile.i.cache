@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Javier\Documents\adquisoft\Adquisoft\Adquisoft\obj\Debug\
+C:\Users\dhen\Documents\GitHub\adquisoft\Adquisoft\Adquisoft\obj\Debug\
 Adquisoft
 none
 false
 DEBUG;TRACE
-C:\Users\Javier\Documents\adquisoft\Adquisoft\Adquisoft\App.xaml
+C:\Users\dhen\Documents\GitHub\adquisoft\Adquisoft\Adquisoft\App.xaml
 71570490590
-
-14-995873157
-16-458782048
+5223784912
+23623665786
+16-212310223
 MainWindow.xaml;ModuloPrincipal.xaml;Registro_sw\MenuRegistro_sw.xaml;Registro_sw\RegistrarNuevoSoftware.xaml;Registro_sw\Registros_sw.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;
 
-True
+False
 

@@ -1,0 +1,6 @@
+C:\Users\dhen\Desktop\FuzzyLogic\FuzzyLogicLibrary\bin\Debug\FuzzyLogicLibrary.XML
+C:\Users\dhen\Desktop\FuzzyLogic\FuzzyLogicLibrary\bin\Debug\FuzzyLogicLibrary.dll
+C:\Users\dhen\Desktop\FuzzyLogic\FuzzyLogicLibrary\bin\Debug\FuzzyLogicLibrary.pdb
+C:\Users\dhen\Desktop\FuzzyLogic\FuzzyLogicLibrary\obj\Debug\FuzzyLogicLibrary.csprojResolveAssemblyReference.cache
+C:\Users\dhen\Desktop\FuzzyLogic\FuzzyLogicLibrary\obj\Debug\FuzzyLogicLibrary.dll
+C:\Users\dhen\Desktop\FuzzyLogic\FuzzyLogicLibrary\obj\Debug\FuzzyLogicLibrary.pdb
