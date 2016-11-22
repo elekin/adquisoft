@@ -24,7 +24,7 @@
             <Image HorizontalAlignment="Left" Height="99" Margin="39,49,0,0" VerticalAlignment="Top" Width="120" Stretch="Fill" Source="Imagenes/User.png"/>
             <Label x:Name="label" Content="Adquisoft &#xD;&#xA;" HorizontalAlignment="Left" Margin="61,24,0,0" VerticalAlignment="Top" Width="98" Height="25" FontFamily="Lucida Calligraphy" RenderTransformOrigin="0.847,0.6"/>
             <Label x:Name="label1" Content="Sistema de evaluación para la &#xD;&#xA;adquisición de Software" HorizontalAlignment="Left" Margin="24,160,0,0" VerticalAlignment="Top" Width="158" FontFamily="Script MT Bold" FontStyle="Italic" FontWeight="Bold"/>
-            <Button x:Name="button" Content="No Borrarr" HorizontalAlignment="Left" Margin="235,155,0,0" VerticalAlignment="Top" Width="90"/>
+            <Button x:Name="button" Content="No Borrarr bicho" HorizontalAlignment="Left" Margin="235,155,0,0" VerticalAlignment="Top" Width="90"/>
         </Grid>
     </Border>
 </Controls:MetroWindow>
