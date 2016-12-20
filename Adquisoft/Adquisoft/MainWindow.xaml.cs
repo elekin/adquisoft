@@ -17,7 +17,7 @@ using MahApps.Metro.Controls;
 using MahApps.Metro.Controls.Dialogs;
 using MahApps.Metro.Behaviours;
 using Npgsql;
-using Adquisoft.Conexion_BD;
+using Adquisoft.Constantes;
 
 namespace Adquisoft
 {
@@ -31,16 +31,14 @@ namespace Adquisoft
             InitializeComponent();
         }
 
-
         private void btn_identificarse_Click(object sender, RoutedEventArgs e)
         {
-
-            string usuario = txt_usuario.Text;
+            //recupera usuario y contraseña
+            string nombre_usuario = txt_usuario.Text;
             string password = pw_contraseña.Password;
-
+            //conecta a BD
             NpgsqlConnection conexionBD = new NpgsqlConnection(ParametrosConexionBD.BD);
             conexionBD.Open();
-
 
             String buscaUsuario = "select nombre_usuario, password from usuario";
             NpgsqlCommand comandoBuscaUsuario = new NpgsqlCommand(buscaUsuario, conexionBD);
@@ -48,13 +46,15 @@ namespace Adquisoft
 
             while (drBuscaUsuario.Read())
             {
-                if (usuario.Equals(drBuscaUsuario["nombre_usuario"].ToString()) && password.Equals(drBuscaUsuario["password"].ToString()))
+                if (nombre_usuario.Equals(drBuscaUsuario["nombre_usuario"].ToString()) && password.Equals(drBuscaUsuario["password"].ToString()))
                 {
                     conexionBD.Close();
-                    
-                   // this.ShowMessageAsync("Bienvenido", "login correcto");
 
-                    ModuloPrincipal cargar = new ModuloPrincipal();
+                    // this.ShowMessageAsync("Bienvenido", "login correcto");
+
+                    Usuario.Permisos_usuario permiso_usuario = new Usuario.Permisos_usuario(nombre_usuario);
+
+                    ModuloPrincipal cargar = new ModuloPrincipal(permiso_usuario);
                     
 
                     this.Close();

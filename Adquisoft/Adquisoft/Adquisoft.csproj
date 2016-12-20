@@ -67,19 +67,90 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Conexion_BD\ParametrosConexionBD.cs" />
+    <Compile Include="Caracteristicas\Caracteristica.cs" />
+    <Compile Include="Constantes\DiccionarioDatos.cs" />
+    <Compile Include="Constantes\ParametrosConexionBD.cs" />
+    <Compile Include="Evaluacion_Difusa\CostoCalidad.cs" />
+    <Compile Include="Evaluacion_Difusa\Etiquetas.cs" />
+    <Compile Include="Evaluacion_Difusa\Ponderacion.cs" />
+    <Compile Include="Evaluacion_Difusa\PrimerNivelCalidadProducto.cs" />
+    <Compile Include="Evaluacion_Difusa\SegundoNivelCaracteristica.cs" />
+    <Compile Include="FuzzyLogicLibrary\FuzzyRule.cs" />
+    <Compile Include="FuzzyLogicLibrary\FuzzyTerm.cs" />
+    <Compile Include="FuzzyLogicLibrary\FuzzyVariable.cs" />
+    <Compile Include="FuzzyLogicLibrary\GenericFuzzySystem.cs" />
+    <Compile Include="FuzzyLogicLibrary\InferenceMethod.cs" />
+    <Compile Include="FuzzyLogicLibrary\MamdaniFuzzySystem.cs" />
+    <Compile Include="FuzzyLogicLibrary\MembershipFunction.cs" />
+    <Compile Include="FuzzyLogicLibrary\Properties\AssemblyInfo.cs" />
+    <Compile Include="FuzzyLogicLibrary\RuleParser.cs" />
     <Compile Include="ModuloPrincipal.xaml.cs">
       <DependentUpon>ModuloPrincipal.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Registro_sw\MenuRegistro_sw.xaml.cs">
+    <Compile Include="Modulos\administracion\AdministrarUsuarios.xaml.cs">
+      <DependentUpon>AdministrarUsuarios.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Caracteristicas\Caracteristica.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Caracteristicas\ConsultaCaracteristicaBD.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Caracteristicas\ConsultaSubcaracteristicaBD.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Caracteristicas\IncidenciaCaracteristica.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Caracteristicas\IncidenciaSubcaracteristica.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Caracteristicas\RegistraIncidenciaCaracteristica.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Caracteristicas\RegistraIncidenciaSubCaracteristica.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Caracteristicas\RegistraSubcategoria.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Caracteristicas\SubCaracteristica.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Categorias\Categoria.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Categorias\ConsultaCategoriaBD.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Categorias\ConsultaSubcategoriaBD.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Categorias\SubCategoria.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\ConfiguracionCategorias.xaml.cs">
+      <DependentUpon>ConfiguracionCategorias.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Caracteristicas\ConsultaIncidenciasCaracteristica.cs" />
+    <Compile Include="Modulos\Configuracion\Categorias\Control_Caracteristicas\ConsultaIncidenciaSubCaracteristica.cs" />
+    <Compile Include="Modulos\Configuracion\ConfiguracionMenuPrincipal.xaml.cs">
+      <DependentUpon>ConfiguracionMenuPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Evaluacion_Adquisicion\EvaluacionComparativa.xaml.cs">
+      <DependentUpon>EvaluacionComparativa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Evaluacion_Calidad\EvaluacionCalidad.xaml.cs">
+      <DependentUpon>EvaluacionCalidad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Evaluacion_Calidad\NuevaEvaluacion.xaml.cs">
+      <DependentUpon>NuevaEvaluacion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Metricas\AgregarMetrica.xaml.cs">
+      <DependentUpon>AgregarMetrica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Configuracion\Categorias\NuevaSubCategoria.xaml.cs">
+      <DependentUpon>NuevaSubCategoria.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Metricas\Metrica.cs" />
+    <Compile Include="Modulos\Perfil_usuario\Perfilusuario.xaml.cs">
+      <DependentUpon>Perfilusuario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="producto_sw\ActualizaRegistroSoftwareBD.cs" />
+    <Compile Include="producto_sw\RegistraSoftwareBD.cs" />
+    <Compile Include="producto_sw\ConsultaRegistroSoftwareBD.cs" />
+    <Compile Include="producto_sw\Software.cs" />
+    <Compile Include="Modulos\Registro_sw\MenuRegistro_sw.xaml.cs">
       <DependentUpon>MenuRegistro_sw.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Registro_sw\RegistrarNuevoSoftware.xaml.cs">
+    <Compile Include="Modulos\Registro_sw\RegistrarNuevoSoftware.xaml.cs">
       <DependentUpon>RegistrarNuevoSoftware.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Registro_sw\Registros_sw.xaml.cs">
+    <Compile Include="Modulos\Registro_sw\Registros_sw.xaml.cs">
       <DependentUpon>Registros_sw.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SQL\ConsultasSQL.cs" />
+    <Compile Include="SubCaracteristicas\Eficiencia.cs" />
+    <Compile Include="SubCaracteristicas\Fiabilidad.cs" />
+    <Compile Include="SubCaracteristicas\Funcionalidad.cs" />
+    <Compile Include="SubCaracteristicas\Usabilidad.cs" />
+    <Compile Include="Usuario\InformacionUsuario.cs" />
+    <Compile Include="Usuario\permisos_usuario.cs" />
+    <Compile Include="validar\validar_datos.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -96,15 +167,51 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Registro_sw\MenuRegistro_sw.xaml">
+    <Page Include="Modulos\administracion\AdministrarUsuarios.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Registro_sw\RegistrarNuevoSoftware.xaml">
+    <Page Include="Modulos\Configuracion\Categorias\ConfiguracionCategorias.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Registro_sw\Registros_sw.xaml">
+    <Page Include="Modulos\Configuracion\ConfiguracionMenuPrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modulos\Evaluacion_Adquisicion\EvaluacionComparativa.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Modulos\Evaluacion_Calidad\EvaluacionCalidad.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Modulos\Evaluacion_Calidad\NuevaEvaluacion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Modulos\Metricas\AgregarMetrica.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Modulos\Configuracion\Categorias\NuevaSubCategoria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modulos\Perfil_usuario\Perfilusuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modulos\Registro_sw\MenuRegistro_sw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modulos\Registro_sw\RegistrarNuevoSoftware.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modulos\Registro_sw\Registros_sw.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -135,6 +242,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="FuzzyLogicLibrary\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="FuzzyLogicLibrary\obj\Debug\FuzzyLogicLibrary.csprojResolveAssemblyReference.cache" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -178,8 +288,7 @@
     <Resource Include="Imagenes\administra1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Configuracion\" />
-    <Folder Include="Evaluacion_calidad\" />
+    <Folder Include="FuzzyLogicLibrary\obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Imagenes\userr.png" />
@@ -201,6 +310,87 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Imagenes\peso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\1444705747_video.png" />
+    <Resource Include="Imagenes\1444705788_video.png" />
+    <Resource Include="Imagenes\1445110133_mic_48.png" />
+    <Resource Include="Imagenes\1445110133_mic_64.png" />
+    <Resource Include="Imagenes\1445112908_player_stop.png" />
+    <Resource Include="Imagenes\1445112908_player_stop_48.png" />
+    <Resource Include="Imagenes\1445117721_login.png" />
+    <Resource Include="Imagenes\1445117721_login_16.png" />
+    <Resource Include="Imagenes\1445117727_logout.png" />
+    <Resource Include="Imagenes\1445117727_logout_16.png" />
+    <Resource Include="Imagenes\1445131565_Stop.png" />
+    <Resource Include="Imagenes\1445132891_start.png" />
+    <Resource Include="Imagenes\1445133127_gtk-media-play-ltr.png" />
+    <Resource Include="Imagenes\1445133487_gtk-media-stop.png" />
+    <Resource Include="Imagenes\1445152628_tick_16.png" />
+    <Resource Include="Imagenes\actualizar_32.png" />
+    <Resource Include="Imagenes\add_32.png" />
+    <Resource Include="Imagenes\agregar_16.png" />
+    <Resource Include="Imagenes\asignar_32.png" />
+    <Resource Include="Imagenes\book.png" />
+    <Resource Include="Imagenes\buscar.png" />
+    <Resource Include="Imagenes\buscar_32.png" />
+    <Resource Include="Imagenes\categoria.png" />
+    <Resource Include="Imagenes\change.png" />
+    <Resource Include="Imagenes\change_32.png" />
+    <Resource Include="Imagenes\clear.png" />
+    <Resource Include="Imagenes\config.png" />
+    <Resource Include="Imagenes\configure_64.png" />
+    <Resource Include="Imagenes\config_!6.png" />
+    <Resource Include="Imagenes\cuentas_64.png" />
+    <Resource Include="Imagenes\db.png" />
+    <Resource Include="Imagenes\delete_32.png" />
+    <Resource Include="Imagenes\documents_64.png" />
+    <Resource Include="Imagenes\document_32.png" />
+    <Resource Include="Imagenes\editar1.png" />
+    <Resource Include="Imagenes\editarr.png" />
+    <Resource Include="Imagenes\eliminar.png" />
+    <Resource Include="Imagenes\eliminar_32.png" />
+    <Resource Include="Imagenes\enviar_32.png" />
+    <Resource Include="Imagenes\estadistia.png" />
+    <Resource Include="Imagenes\estrella.png" />
+    <Resource Include="Imagenes\filtro.png" />
+    <Resource Include="Imagenes\go_32.png" />
+    <Resource Include="Imagenes\guardar_32.png" />
+    <Resource Include="Imagenes\interpretar.jpg" />
+    <Resource Include="Imagenes\llabe.png" />
+    <Resource Include="Imagenes\modificar.png" />
+    <Resource Include="Imagenes\modificar_64.png" />
+    <Resource Include="Imagenes\new_24.png" />
+    <Resource Include="Imagenes\new_32.png" />
+    <Resource Include="Imagenes\open_32.png" />
+    <Resource Include="Imagenes\pausee.png" />
+    <Resource Include="Imagenes\pdf_32.png" />
+    <Resource Include="Imagenes\proyect_64.png" />
+    <Resource Include="Imagenes\roles_64.png" />
+    <Resource Include="Imagenes\tareas_64.png" />
+    <Resource Include="Imagenes\useer.png" />
+    <Resource Include="Imagenes\user_image.png" />
+    <Resource Include="Imagenes\user_image48.png" />
+    <Resource Include="Imagenes\ver2.png" />
+    <Resource Include="Imagenes\verr.png" />
+    <Resource Include="Imagenes\video_20.png" />
+    <Resource Include="Imagenes\video_32.png" />
+    <Resource Include="Imagenes\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\categorias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\metrica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FuzzyLogicLibrary\bin\Debug\FuzzyLogicLibrary.dll" />
+    <Content Include="FuzzyLogicLibrary\bin\Debug\FuzzyLogicLibrary.pdb" />
+    <Resource Include="FuzzyLogicLibrary\bin\Debug\FuzzyLogicLibrary.XML" />
+    <Content Include="FuzzyLogicLibrary\FuzzyLogicLibrary.csproj" />
+    <Resource Include="FuzzyLogicLibrary\obj\Debug\FuzzyLogicLibrary.csproj.FileListAbsolute.txt" />
+    <Content Include="FuzzyLogicLibrary\obj\Debug\FuzzyLogicLibrary.dll" />
+    <Content Include="FuzzyLogicLibrary\obj\Debug\FuzzyLogicLibrary.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

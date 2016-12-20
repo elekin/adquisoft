@@ -1,0 +1,127 @@
+﻿<Controls:MetroWindow x:Class="Adquisoft.Modulos.Configuracion.Control_Categorias.NuevaSubCategoria"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Adquisoft.Modulos.Configuracion.Categorias.Control_Categorias"
+        mc:Ignorable="d"
+                      
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+                      
+        Title="Nueva SubCategoria" Height="500" Width="700" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TabControl x:Name="tabControlRegistroSubcategoria" Margin="10">
+            <TabItem Header="1" IsEnabled="False">
+                <Grid>
+                    <GroupBox x:Name="groupInformacionSubcategoria" Header="Información Subcategoría" Margin="10,10,10,76.473">
+                        <Grid Margin="4,4.527,5,21.473">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="8*"/>
+                                <ColumnDefinition Width="33*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="28"/>
+                            </Grid.RowDefinitions>
+                            <Label x:Name="lblNombre_subcategoria" Content="Nombre" Margin="10,10,5,0"/>
+                            <TextBox x:Name="textNombreSubcategoria" Grid.Column="1" Margin="10,10,235,4" TextWrapping="Wrap"/>
+                            <Label x:Name="lblCategoria" Content="Categoría" Margin="10,10,5,0" Grid.Row="1"/>
+                            <ComboBox x:Name="cbCategoria" Grid.Column="1" Margin="10,10,235,1" Grid.Row="1"/>
+                            <Label x:Name="lblDescripcion" Content="Descripción" Margin="10,10,5,0" Grid.Row="2"/>
+                            <TextBox x:Name="textDescripcionSubcategoria" Grid.Column="1" Margin="10" Grid.Row="2" Grid.RowSpan="3" TextWrapping="Wrap"/>
+                        </Grid>
+                    </GroupBox>
+                    <Grid Height="35" Margin="0,0,10,26.473" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="265">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="26*"/>
+                            <ColumnDefinition Width="27*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnSiguiente" Content="Siguiente" Grid.Column="1" Margin="10,0" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnSiguiente_Click"/>
+                        <Button x:Name="btnCancelar" Content="Cancelar" Margin="5,0,10,0" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnCancelar_Click"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="2" Margin="-1.377,0,2.753,0" RenderTransformOrigin="-0.222,0.633" d:LayoutOverrides="HorizontalAlignment" IsEnabled="False">
+                <Grid>
+                    <GroupBox x:Name="groupSeleccionCaracteristicas" Header="Seleccione Caracteristicas" Margin="10,10,10,81.473">
+                        <DataGrid x:Name="dgSeleccionCaracteristicas" CanUserAddRows="false" Margin="10,10,-2,6.473"/>
+                    </GroupBox>
+                    <Grid Height="35" Margin="0,0,10,26.473" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="265">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="26*"/>
+                            <ColumnDefinition Width="27*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnsiguiente_s_c" Content="Siguiente" Grid.Column="1" Margin="10,0" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnsiguiente_s_c_Click"/>
+                        <Button x:Name="btnVolver_sc" Content="Volver" Margin="5,0,10,0" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnVolver_sc_Click"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="3" IsEnabled="False">
+                <Grid>
+                    <GroupBox x:Name="groupSeleccionSubcaracteristicas" Header="Seleccione Subcaracteristicas" Margin="10,10,10,81.473">
+                        <DataGrid x:Name="dgSeleccionSubcaracteristicas" CanUserAddRows="false" Margin="10,10,-2,6.473"/>
+                    </GroupBox>
+                    <Grid Height="35" Margin="0,0,10,26.473" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="265">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="26*"/>
+                            <ColumnDefinition Width="27*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnsiguiente_s_sc" Content="Siguiente" Grid.Column="1" Margin="10,0" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnsiguiente_s_sc_Click"/>
+                        <Button x:Name="btnVolver_ssc" Content="Volver" Margin="5,0,10,0" Style="{StaticResource AccentedSquareButtonStyle}"  Click="btnVolver_ssc_Click"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="4" Background="{x:Null}" IsEnabled="False">
+                <Grid>
+                    <GroupBox x:Name="groupIncidenciasSubcaracteristicas" Header="Incidencias Subcaracteristicas" Margin="10,10,10,81.473">
+                        <DataGrid x:Name="dgIncidenciasSubcaracteristicas" Margin="10,10,-2,6.473"/>
+                    </GroupBox>
+                    <Grid Height="35" Margin="0,0,10,26.473" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="265">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="26*"/>
+                            <ColumnDefinition Width="27*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnsiguiente_incidenciaSubC" Content="Siguiente" Grid.Column="1" Margin="10,0" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnsiguiente_incidenciaSubC_Click"/>
+                        <Button x:Name="btnVolver_incidenciaSubcaracteristica" Content="Volver" Margin="5,0,10,0" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnVolver_incidenciaSubcaracteristica_Click"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="5" IsEnabled="False">
+                <Grid>
+                    <GroupBox x:Name="groupIncidenciasCaracteristicas" Header="Incidencias Caracteristicas" Margin="10,10,10,81.473">
+                        <DataGrid x:Name="dgIncidenciasCaracteristicas" Margin="10,10,-2,6.473"/>
+                    </GroupBox>
+                    <Grid Height="35" Margin="0,0,10,26.473" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="265">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="26*"/>
+                            <ColumnDefinition Width="27*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnSiguienteIncidenciaCaracteristicas" Content="Siguiente" Grid.Column="1" Margin="10,0" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnSiguienteIncidenciaCaracteristicas_Click"/>
+                        <Button x:Name="btnVolver_incidenciaCaracteristica" Content="Volver" Margin="5,0,10,0" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnVolver_incidenciaCaracteristica_Click"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="6">
+                <Grid>
+                    <GroupBox x:Name="groupSeleccionMetricas" Header="Selección Metricas" Margin="10,10,10,81.473">
+                        <DataGrid x:Name="dgSeleccionMetricas" Margin="10,10,-2,6.473"/>
+                    </GroupBox>
+                    <Grid Height="35" Margin="0,0,10,21.473" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="265">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="26*"/>
+                            <ColumnDefinition Width="27*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnRegistrar" Content="Registrar" Grid.Column="1" Margin="10,0" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnRegistrar_Click"/>
+                        <Button x:Name="btnVolver_seleccionMetricas" Content="Volver" Margin="5,0,10,0" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnVolver_incidenciaCaracteristica_Click"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Controls:MetroWindow>

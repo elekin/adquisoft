@@ -14,17 +14,16 @@
 
 
         <Grid>
-            <TextBox x:Name="txt_usuario" HorizontalAlignment="Left" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Nombre de usuario" Height="23" Margin="204,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345">
+            <TextBox x:Name="txt_usuario" Text="javier" HorizontalAlignment="Left" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Nombre de usuario" Height="23" Margin="204,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345">
                 <TextBox.BorderBrush>
                     <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlTextColorKey}}"/>
                 </TextBox.BorderBrush>
             </TextBox>
-            <PasswordBox x:Name="pw_contraseña" HorizontalAlignment="Left" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Contraseña" Margin="204,100,0,0" VerticalAlignment="Top" Width="345" BorderBrush="Black"/>
+            <PasswordBox x:Name="pw_contraseña" Password="123" HorizontalAlignment="Left" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Contraseña" Margin="204,100,0,0" VerticalAlignment="Top" Width="345" BorderBrush="Black"/>
             <Button x:Name="btn_identificarse" Content="Identificarse"  HorizontalAlignment="Left" Margin="373,160,0,0" VerticalAlignment="Top" Width="176" Background="White" BorderBrush="Black" Click="btn_identificarse_Click"/>
             <Image HorizontalAlignment="Left" Height="99" Margin="39,49,0,0" VerticalAlignment="Top" Width="120" Stretch="Fill" Source="Imagenes/User.png"/>
             <Label x:Name="label" Content="Adquisoft &#xD;&#xA;" HorizontalAlignment="Left" Margin="61,24,0,0" VerticalAlignment="Top" Width="98" Height="25" FontFamily="Lucida Calligraphy" RenderTransformOrigin="0.847,0.6"/>
             <Label x:Name="label1" Content="Sistema de evaluación para la &#xD;&#xA;adquisición de Software" HorizontalAlignment="Left" Margin="24,160,0,0" VerticalAlignment="Top" Width="158" FontFamily="Script MT Bold" FontStyle="Italic" FontWeight="Bold"/>
-            <Button x:Name="button" Content="No Borrarr bicho" HorizontalAlignment="Left" Margin="235,155,0,0" VerticalAlignment="Top" Width="90"/>
         </Grid>
     </Border>
 </Controls:MetroWindow>

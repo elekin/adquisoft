@@ -15,7 +15,7 @@ namespace AI.Fuzzy.Library
     using FuzzyConclusion = SingleCondition<FuzzyVariable, FuzzyTerm>;
 
     // Alias for a conclusion for Sugeno fuzzy systems
-    using SugenoConclusion = SingleCondition<SugenoVariable, ISugenoFunction>;
+   
 
     /// <summary>
     /// Condition of fuzzy rule for the both Mamdani and Sugeno systems
@@ -309,26 +309,5 @@ namespace AI.Fuzzy.Library
         }
     }
 
-    /// <summary>
-    /// Fuzzy rule for Sugeno fuzzy system
-    /// </summary>
-    public class SugenoFuzzyRule : GenericFuzzyRule, IParsableRule<SugenoVariable, ISugenoFunction>
-    {
-        SugenoConclusion _conclusion = new SugenoConclusion();
 
-        /// <summary>
-        /// Constructor. NOTE: a rule cannot be created directly, only via SugenoFuzzySystem::EmptyRule or SugenoFuzzySystem::ParseRule
-        /// </summary>
-        internal SugenoFuzzyRule()
-        {}
-
-        /// <summary>
-        /// Conclusion (THEN) part of the rule
-        /// </summary>
-        public SugenoConclusion Conclusion
-        {
-            get { return _conclusion; }
-            set { _conclusion = value; }
-        }
-    }
 }

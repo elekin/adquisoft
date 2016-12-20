@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Adquisoft.Constantes.DiccionarioDatos">
+    <Position X="6.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABEAAgAEAACBAAAAAAAIAAAAAAAAAABA=</HashCode>
+      <FileName>Constantes\DiccionarioDatos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adquisoft.Constantes.ParametrosConexionBD">
+    <Position X="9.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAAAAABACAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Constantes\ParametrosConexionBD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adquisoft.Modulos.Categorias.NuevaSubCategoria">
+    <Position X="0.5" Y="0.75" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulos\Configuracion\Categorias\NuevaSubCategoria.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Adquisoft.Modulos.Configuracion.ConfiguracionCategorias">
+    <Position X="3.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAAAAAAAAAAAAAACAAABAQAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulos\Configuracion\Categorias\ConfiguracionCategorias.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Adquisoft.Modulos.Configuracion.ConfiguracionMenuPrincipal">
+    <Position X="9.5" Y="4.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Modulos\Configuracion\ConfiguracionMenuPrincipal.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="Adquisoft.Modulos.Evaluacion_Calidad.EvaluacionCalidad">
+    <Position X="15.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAEAAAEAIAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Modulos\Evaluacion_Calidad\EvaluacionCalidad.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Adquisoft.Modulos.Metricas.AgregarMetrica">
+    <Position X="0.5" Y="7" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Modulos\Configuracion\Metricas\AgregarMetrica.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Adquisoft.Modulos.Metricas.Metrica">
+    <Position X="0.5" Y="10" Width="4.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQCAAAEAAEAAACBAAAAgAAEAAAgVAAAIFQAAQAEQgE=</HashCode>
+      <FileName>Modulos\Configuracion\Metricas\Metrica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adquisoft.Registro_sw.MenuRegistro_sw" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="12" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAIAEAAAAAAAAAAgAA=</HashCode>
+      <FileName>Registro_sw\MenuRegistro_sw.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="Adquisoft.Registro_sw.RegistrarNuevoSoftware" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAQQAACAAAAAAEIgABAgAQAEAAAAAAAAoBEQAgAA=</HashCode>
+      <FileName>Registro_sw\RegistrarNuevoSoftware.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Adquisoft.Registro_sw.Registros_sw" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="12.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Registro_sw\Registros_sw.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Adquisoft.App">
+    <Position X="19" Y="15.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adquisoft.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="9.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Adquisoft.ModuloPrincipal" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="7.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAIAAAAAAAAAAAAAAAAAAAgQAAAgAAAAAKCAA=</HashCode>
+      <FileName>ModuloPrincipal.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Adquisoft.Properties.Resources">
+    <Position X="18.5" Y="6.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adquisoft.Properties.Settings">
+    <Position X="14.75" Y="15.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adquisoft.SQL.ConsultasSQL">
+    <Position X="12.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAACAAAAQAAABAAAAAAAAAAggAAA=</HashCode>
+      <FileName>SQL\ConsultasSQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adquisoft.Usuario.Permisos_usuario">
+    <Position X="5.75" Y="14.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAACgAQIAACACAAAAAAAAAAAAAAhBAAgAQQAAAgA=</HashCode>
+      <FileName>Usuario\permisos_usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adquisoft.validar.validar_datos">
+    <Position X="10.75" Y="15" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>validar\validar_datos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

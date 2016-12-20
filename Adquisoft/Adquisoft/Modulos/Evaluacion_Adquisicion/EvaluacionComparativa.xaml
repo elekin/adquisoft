@@ -1,0 +1,50 @@
+﻿<Window x:Class="Adquisoft.Modulos.Evaluacion_Adquisicion.EvaluacionComparativa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Adquisoft.Modulos.Evaluacion_Adquisicion"
+        mc:Ignorable="d"
+        Title="EvaluacionComparativa" Height="627" Width="600">
+    <Grid>
+        <TabControl x:Name="tabControl" Background="White">
+            <TabItem x:Name="tabSelecionarSubCategoria" Header="Selecionar">
+                <Grid Background="White">
+                    <GroupBox x:Name="groupBox_Copy" Header="Categoria" Margin="0,10,0,0" VerticalAlignment="Top" Height="88">
+                        <Grid HorizontalAlignment="Left" Height="65" Margin="0,0,-8,-4" VerticalAlignment="Top" Width="582">
+                            <Label x:Name="label1" Content="Categoria:" HorizontalAlignment="Left" Margin="26,11,0,0" VerticalAlignment="Top" Width="158"/>
+                            <ComboBox x:Name="comboBoxCategoria" HorizontalAlignment="Left" Margin="189,11,0,0" VerticalAlignment="Top" Width="185"/>
+                            <Button x:Name="buttonCategoria" Content="Aplicar" HorizontalAlignment="Left" Margin="404,12,0,0" VerticalAlignment="Top" Width="75" Click="buttonCategoria_Click"/>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox x:Name="groupBox_Copy1" Header="Sub-Categoria" Margin="1,108,-1,0" VerticalAlignment="Top" Height="90">
+                        <Grid HorizontalAlignment="Left" Height="65" Margin="0,0,-8,-4" VerticalAlignment="Top" Width="582">
+                            <Label x:Name="label2" Content="Seleccionar Sub-Categoria:" HorizontalAlignment="Left" Margin="26,11,0,0" VerticalAlignment="Top" Width="158"/>
+                            <ComboBox x:Name="comboBoxSubCategoria" HorizontalAlignment="Left" Margin="189,11,0,0" VerticalAlignment="Top" Width="185"/>
+                            <Button x:Name="buttonSubCategoria" Content="Aplicar" HorizontalAlignment="Left" Margin="404,12,0,0" VerticalAlignment="Top" Width="75" Click="buttonSubCategoria_Click"/>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox x:Name="groupBox_Copy2" Header="Software Disponibles para evaluar" Margin="1,258,-1,0" VerticalAlignment="Top" Height="235">
+                        <Grid HorizontalAlignment="Left" Height="235" VerticalAlignment="Top" Width="576" Margin="0,0,-2,0">
+                            <DataGrid x:Name="dataGridSoftwaresRegistrados" HorizontalAlignment="Left" SelectionMode="Single" CanUserAddRows="False" IsReadOnly="False" CanUserSortColumns="False" Margin="34,22,0,0" VerticalAlignment="Top" Width="501" Height="190" MouseDoubleClick="dataGridSoftwaresRegistrados_MouseDoubleClick"/>
+                        </Grid>
+                    </GroupBox>
+                    <Button x:Name="buttonComparar" Content="Iniciar Comparación" HorizontalAlignment="Left" Margin="422,513,0,0" VerticalAlignment="Top" Width="145" Click="buttonComparar_Click"/>
+                    <TextBox x:Name="textPresupuesto" HorizontalAlignment="Left" Height="23" Margin="107,218,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+                    <Label x:Name="label" Content="Presupuesto: " HorizontalAlignment="Left" Margin="12,217,0,0" VerticalAlignment="Top"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabComparaciones" Header="Comparaciones">
+                <Grid Background="White">
+                    <GroupBox x:Name="groupBox" Header="Costo-Calidad" Margin="17,58,14,0" VerticalAlignment="Top" Height="230">
+                        <DataGrid x:Name="dataGridCostoCalidad"/>
+                    </GroupBox>
+                    <Label x:Name="label3" Content="Presupuesto:" HorizontalAlignment="Left" Margin="24,18,0,0" VerticalAlignment="Top" Width="83"/>
+                    <Label x:Name="labelPresupuesto" Content="Label" HorizontalAlignment="Left" Margin="109,17,0,0" VerticalAlignment="Top" Width="98"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

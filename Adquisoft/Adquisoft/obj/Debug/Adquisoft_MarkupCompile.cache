@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Javier\Documents\adquisoft\Adquisoft\Adquisoft\App.xaml
-71570490590
-
-10-106806451
+16-1724012124
+5223784912
+631012534840
 16-458782048
-MainWindow.xaml;ModuloPrincipal.xaml;Registro_sw\MenuRegistro_sw.xaml;Registro_sw\RegistrarNuevoSoftware.xaml;Registro_sw\Registros_sw.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;
+MainWindow.xaml;ModuloPrincipal.xaml;Modulos\administracion\AdministrarUsuarios.xaml;Modulos\Configuracion\Categorias\ConfiguracionCategorias.xaml;Modulos\Configuracion\ConfiguracionMenuPrincipal.xaml;Modulos\Evaluacion_Adquisicion\EvaluacionComparativa.xaml;Modulos\Evaluacion_Calidad\EvaluacionCalidad.xaml;Modulos\Evaluacion_Calidad\NuevaEvaluacion.xaml;Modulos\Metricas\AgregarMetrica.xaml;Modulos\Configuracion\Categorias\NuevaSubCategoria.xaml;Modulos\Perfil_usuario\Perfilusuario.xaml;Modulos\Registro_sw\MenuRegistro_sw.xaml;Modulos\Registro_sw\RegistrarNuevoSoftware.xaml;Modulos\Registro_sw\Registros_sw.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;
 
 False
 
